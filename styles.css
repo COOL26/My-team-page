@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 50rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem auto;
+}
+
+header .main-heading {
+  letter-spacing: -3px;
+}
+
+header div h1 {
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+header .who-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 22rem;
+  word-spacing: 4px;
+}
+
+header .who-we-are span {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 0.7rem;
+}
+
+header .who-we-are p {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+ul li {
+  margin: 0 5.2rem;
+  position: relative;
+}
+
+ul li img {
+  width: 11rem;
+  object-fit: cover;
+}
+
+ul .odd-one-out {
+  position: relative;
+  top: 6.25rem;
+}
+
+ul li .name {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+ul li .designation {
+  position: absolute;
+  top: 0;
+  right: -1.5rem;
+  writing-mode: vertical-lr;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: 400;
+  font-size: 0.65rem;
+  letter-spacing: -0.5px;
+  word-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+#active-in-mobile-view {
+  display: none;
+}
