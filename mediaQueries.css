@@ -1,4 +1,7 @@
 @media screen and (max-width: 945px) {
+  html {
+    overflow-x: hidden;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -6,15 +9,15 @@
     margin: 0 2rem;
     margin-top: 4rem;
   }
-  .main-heading {
+  header .main-heading {
     margin-bottom: 2rem;
   }
 
-  #desktop-mode {
+  main#desktop-mode {
     display: none;
   }
 
-  #active-in-mobile-view {
+  aside#active-in-mobile-view {
     display: flex;
     justify-content: flex-start;
   }
@@ -35,16 +38,28 @@
     margin-right: 0;
   }
 
-  ul li .designation {
+  aside#active-in-mobile-view ul li img {
+    width: 8rem;
+    object-fit: cover;
+  }
+
+  aside#active-in-mobile-view ul li .designation {
     position: absolute;
     top: 0;
     right: -1.5rem;
     writing-mode: vertical-lr;
     font-family: "Libre Baskerville", sans-serif;
     font-weight: 400;
-    font-size: 0.85rem;
+    font-size: 0.65rem;
     letter-spacing: -0.5px;
     word-spacing: -0.5px;
     text-transform: uppercase;
+  }
+
+  aside#active-in-mobile-view ul li p.name {
+    padding: 0.5rem 0;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.85rem;
   }
 }
