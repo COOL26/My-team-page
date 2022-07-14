@@ -2,6 +2,12 @@
   html {
     overflow-x: hidden;
   }
+  
+  body {
+    text-align: center;
+    min-width: 10rem;
+  }
+  
   header {
     display: flex;
     flex-direction: column;
