@@ -2,20 +2,20 @@
   html {
     overflow-x: hidden;
   }
-  
+
   body {
     text-align: center;
     min-width: 10rem;
   }
-  
+
   header {
-    display: flex;
+    text-align: left;
+    display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
-    margin: 0 2rem;
     margin-top: 4rem;
   }
+
   header .main-heading {
     margin-bottom: 2rem;
   }
@@ -26,12 +26,13 @@
 
   aside#active-in-mobile-view {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 
   aside#active-in-mobile-view ul div.upper-3 li {
     margin-bottom: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-right: 4rem;
   }
 
