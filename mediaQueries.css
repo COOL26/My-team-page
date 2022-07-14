@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     margin: 0 2rem;
     margin-top: 4rem;
   }
@@ -30,7 +31,7 @@
 
   aside#active-in-mobile-view ul div.upper-3 li {
     margin-bottom: 4rem;
-    margin-left: 2rem;
+    margin-left: 0;
     margin-right: 4rem;
   }
 
