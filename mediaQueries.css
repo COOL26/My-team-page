@@ -54,7 +54,7 @@
   aside#active-in-mobile-view ul li .designation {
     position: absolute;
     top: 0;
-    right: -1.5rem;
+    right: -1rem;
     writing-mode: vertical-lr;
     font-family: "Libre Baskerville", sans-serif;
     font-weight: 400;
