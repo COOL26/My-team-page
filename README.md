@@ -30,13 +30,12 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/91824236/179014277-eb64f6df-b1a1-4d7a-b4f0-9bf2ccb93ef6.png)
 
 - You can see my webpage on this link -> https://cool26.github.io/My-team-page-/
 - This project make me learn a lot of stuffs related to positions, flex-box and grid as well. Also, I tried making this page responsive. 
@@ -47,9 +46,8 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](https://html.com/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Features
 
