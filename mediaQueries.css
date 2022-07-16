@@ -30,10 +30,17 @@
     align-items: center;
   }
 
+  aside#active-in-mobile-view ul {
+    position: relative;
+    top: -5rem;
+  }
+
   aside#active-in-mobile-view ul div.upper-3 li {
+    position: relative;
+    left: -1rem;
     margin-bottom: 4rem;
     margin-left: 1rem;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
   }
 
   aside#active-in-mobile-view ul div.lower-3 {
@@ -41,6 +48,8 @@
   }
 
   aside#active-in-mobile-view ul div.lower-3 li {
+    position: relative;
+    left: -1.5rem;
     margin-bottom: 4rem;
     margin-left: 0;
     margin-right: 0;
